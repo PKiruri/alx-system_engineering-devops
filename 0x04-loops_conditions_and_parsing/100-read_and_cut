@@ -3,5 +3,5 @@
 
 file="/etc/passwd"
 while read line; do
-	echo "$line" | cut -f1,3,6
+	echo "$line" 
 done <$file
