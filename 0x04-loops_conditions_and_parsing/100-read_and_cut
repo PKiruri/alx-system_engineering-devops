@@ -3,6 +3,6 @@
 
 FILE="/etc/passwd"
 
-while read passwd; do
+while read "/etc/passwd"; do
   echo "$passwd" | cut -d ':' -f1,3,6
 done < "/etc/passwd"
