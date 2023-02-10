@@ -25,7 +25,7 @@ if __name__ == "__main__":
             completed_nb += 1
             completed_tasks.append(task.get("title"))
 
-    sentence = "Employee {} is done with tasks({}/{}):"
+    sentence = "Employee Ervin Howell is done with tasks({}/{}):"
     print(sentence.format(user.get("name"), completed_nb, total_nb))
     for task in completed_tasks:
         print("\t {}".format(task))
