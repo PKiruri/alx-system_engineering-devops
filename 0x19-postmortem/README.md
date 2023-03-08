@@ -1,10 +1,12 @@
 Incident report 
 
 Issue Summary
+
 There was system downtime of the website on Feb 21st, 2023 from 11.00 a.m EST to FEB 24th 3p.m EST. HTTP 500 error was experienced due to an upgrade of the server.
 
 
 Timeline
+
 Feb 21st 11:00 AM Backup of site data
 Feb 21st 2:40 PM Updating server core to newer version
 Feb 23rd 8:43 AM Configuration of the server
@@ -19,4 +21,5 @@ The current server was not up to date and also had plenty of limitations. Due to
 
 
 Corrective and Preventative Measures
+
 Investing in multiple servers and not one and changing the architecture of the network. This will be a good approach to ensure in the future if any additional features need to be implemented then the company will take on a parallel form of server migration, ensuring the website and other company services are always present online.
