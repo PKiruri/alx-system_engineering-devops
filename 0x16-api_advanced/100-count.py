@@ -56,7 +56,7 @@ def count_words(subreddit, word_list):
     global posts
     global after
 
-    headers = {"User-Agent": "0x16. API advanced by Cu7ious"}
+    headers = {"User-Agent": "0x16. API advanced"}
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
 
     if after:
